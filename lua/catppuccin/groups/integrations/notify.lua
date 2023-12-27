@@ -2,6 +2,7 @@ local M = {}
 
 function M.get()
 	return {
+		NotifyBackground = { bg = "#000000" },
 		NotifyERRORBorder = { fg = C.red },
 		NotifyERRORIcon = { fg = C.red },
 		NotifyERRORTitle = { fg = C.red, style = { "italic" } },
